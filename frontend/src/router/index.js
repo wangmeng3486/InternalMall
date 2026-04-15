@@ -44,6 +44,11 @@ const router = createRouter({
       component: () => import('@/views/user/CartView.vue')
     },
     {
+      path: '/checkout',
+      name: 'checkout',
+      component: () => import('@/views/user/CheckoutView.vue')
+    },
+    {
       path: '/admin/dashboard',
       name: 'admin-dashboard',
       component: () => import('@/views/admin/DashboardView.vue')

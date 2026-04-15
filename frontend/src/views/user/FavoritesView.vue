@@ -43,7 +43,7 @@
       </el-empty>
     </div>
     
-    <div v-else class="favorites-content">
+    <div v-else class="favorites-list">
       <div class="products-grid">
         <ProductCard
           v-for="product in favorites"
@@ -67,6 +67,7 @@
           @current-change="handleCurrentChange"
         />
       </div>
+    </div>
     </div>
   </div>
 </template>

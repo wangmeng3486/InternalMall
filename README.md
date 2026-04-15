@@ -16,9 +16,6 @@ InternalEnterpriseMall/
 │   ├── package.json       # 依赖配置
 │   ├── vite.config.js     # Vite配置
 │   └── index.html         # HTML模板
-├── spec/                  # 项目规范文档
-│   ├── Me2AI/             # 用户需求文档
-│   └── AI2AI/             # AI维护的架构文档
 ├── start-services.bat      # 快速启动服务脚本
 ├── preview-frontend.bat    # 前端预览脚本
 ├── stop-services.bat       # 停止服务脚本
